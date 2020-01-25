@@ -5,8 +5,8 @@ import {take} from 'rxjs/operators'
 
 @Injectable()
 export class ContactService {
-  //ip:String="http://localhost:3000/";
-  ip:String="";
+  ip:String="http://localhost:3000/";
+  // ip:String="";
 
   constructor(private http:Http) {
    }
